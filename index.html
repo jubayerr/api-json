@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice API JSON</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="get-api-data">
+        <h1>API JSON</h1>
+        <h2>Learning how to use API</h2>
+        <p>In the below following data is loaded from sever</p>
+        <ul id="users-container"></ul>
+    </div>
+    <div class="post-data-to-server">
+        <br><br>
+        <p>In the below following data will be posted to server</p>
+        <input id="title" type="text" placeholder="title">
+        <br>
+        <br>
+        <input id="body-content" type="text" placeholder="post...">
+        <br>
+        <br>
+        <button id="submit">Submit</button>
+        <br><br><br>
+        <div id="post-container" class="post-section">
+            <h2 id="show-title">Title</h2>
+            <p id="show-message">Post Body</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="get.js"></script>
+</body>
+
+</html>

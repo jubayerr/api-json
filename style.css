@@ -1,0 +1,13 @@
+
+body {
+    padding: 40px;
+    background: #010010;
+    color: #67cf96;
+
+}
+
+.post-section {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
